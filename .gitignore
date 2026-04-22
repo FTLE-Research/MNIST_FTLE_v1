@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+.cache/
+.pytest_cache/
+.ipynb_checkpoints/
+.mplconfig/
+
+# Environments
+.env
+.venv
+venv/
+env/
+ENV/
+bin/
+lib/
+share/
+
+# OS-specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project Specific - Large Data and Models
+# (MNIST raw images are included as requested for training tasks)
+
+# Exclude potential large model weights/checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Allow results and smaller data files
+# (The user wants to push results that are not big size)
+# Based on discovery, most .npz, .csv, .json, and .png are < 1MB.
+
+# Redundant but safe: ignore common large extensions if they appear
+*.h5
+*.onnx
+
+# Allow everything else by default, but ignore known large/temp dirs
+!data/
+!runs/
+!mnist_ftle_result/
+
+# Re-ignore temporary or redundant files within those directories
+runs/jobs/**/logs/*.log
+mnist_ftle_result/**/.DS_Store
+runs/**/.DS_Store
+data/**/.DS_Store

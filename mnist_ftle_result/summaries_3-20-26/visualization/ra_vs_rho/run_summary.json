@@ -1,0 +1,14 @@
+{
+  "summary_root": "/gscratch/amath/zztu/CNN_code/mnist_ftle_3-20-2026/runs/summaries",
+  "checkpoint_root": "/gscratch/amath/zztu/CNN_code/mnist_ftle_3-20-2026/runs/jobs/mnist",
+  "output_dir": "/gscratch/amath/zztu/CNN_code/mnist_ftle_3-20-2026/runs/summaries/ra_vs_rho",
+  "split": "test",
+  "subset": 2000,
+  "checkpoint_name": "best.pt",
+  "jobs_processed": 30,
+  "mean_ra": 0.07144112972532507,
+  "mean_rho_lambda": -0.7837902165839616,
+  "csv": "/gscratch/amath/zztu/CNN_code/mnist_ftle_3-20-2026/runs/summaries/ra_vs_rho/ra_vs_rho.csv",
+  "json": "/gscratch/amath/zztu/CNN_code/mnist_ftle_3-20-2026/runs/summaries/ra_vs_rho/ra_vs_rho.json",
+  "scatter_plot": "/gscratch/amath/zztu/CNN_code/mnist_ftle_3-20-2026/runs/summaries/ra_vs_rho/ra_vs_rho_scatter.png"
+}

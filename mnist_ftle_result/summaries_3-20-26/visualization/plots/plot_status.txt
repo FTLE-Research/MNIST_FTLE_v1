@@ -1,0 +1,9 @@
+created: plot1_rho_vs_depth.png
+summary source: /Users/tzz/Documents/CNN_Lyp/mnist_ftle_result/summaries_3-20-26/depth_sweep/summary_depth_sweep.csv
+baseline summary available: summary_seed_baseline.csv
+created: plot4_rho_vs_width.png
+width summary source: /Users/tzz/Documents/CNN_Lyp/mnist_ftle_result/summaries_3-20-26/width_sweep/summary.csv
+created: plot2_ftle_vs_margin_seed0_depths_4_8_16.png
+created: plot3_ftle_margin_distributions.png
+created: plot5_ftle_vs_margin_seed0_widths_20_50_100.png
+created: plot6_ftle_margin_distributions_by_width.png
